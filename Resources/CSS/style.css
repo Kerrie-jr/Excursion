@@ -2,22 +2,41 @@
 
 /* Use <body> as selector for entire landing page */
 
-body {background-color: black; text-align: center; font-family: helvetica; color: white;}
+body {
+    background-color: black;
+    text-align: center;
+    font-family: helvetica;
+    color: white;
+}
 
 /* Set header font size; default font-weight = Normal */
 
-h1 {font-size: 50px}
+h1 {
+  font-size: 50px
+}
 
 /* Use <a> to color text aquamarine */
 
-a {color: aquamarine; font-size: 16px}
+a {
+  color: aquamarine; font-size: 16px
+}
 
-/* Sets subheader font size and weight */
+video {
+  object-fit: contain;
+}
 
-h2 {font-size: 42px; font-weight: 300;}
+/* Sets subheaders font size and weight */
+
+h2 {
+  font-size: 42px; font-weight: 300;
+}
 
 /* Sets h3 selector font size and color */
 
-h3 {font-size: 21px; color: gray}
+h3 {
+  font-size: 21px; color: gray
+}
 
-.right {text-align: right;}
+#right {
+  text-align: right;
+}
