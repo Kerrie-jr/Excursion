@@ -1,25 +1,27 @@
 
 
-/* Use <body> as selector for entire landing page */
+/* Use <body> as selector for entire landing page common elements - specifics for size and color exceptions per selectors below */
 
 body {
     background-color: black;
     text-align: center;
-    font-family: helvetica;
+    font-family: verdana;
     color: white;
 }
 
-/* Set header font size; default font-weight = Normal */
+/* Set header font size; default font-weight already 'Normal' */
 
 h1 {
   font-size: 50px
 }
 
-/* Use <a> to color text aquamarine */
+/* Use <a> to set font color and size */
 
 a {
   color: aquamarine; font-size: 16px
 }
+
+/* Video container format */
 
 video {
   object-fit: contain;
@@ -36,6 +38,8 @@ h2 {
 h3 {
   font-size: 21px; color: gray
 }
+
+/* Aligns company copyright to right with id selector */
 
 #right {
   text-align: right;
