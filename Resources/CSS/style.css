@@ -3,10 +3,10 @@
 /* Use <body> as selector for entire landing page common elements - specifics for size and color exceptions per selectors below */
 
 body {
-    background-color: black;
-    text-align: center;
-    font-family: verdana;
-    color: white;
+  background-color: black;
+  text-align: center;
+  font-family: verdana;
+  color: white;
 }
 
 /* Set header font size; default font-weight already 'Normal' */
@@ -41,6 +41,6 @@ h3 {
 
 /* Aligns company copyright to right with id selector */
 
-#right {
+footer {
   text-align: right;
 }
